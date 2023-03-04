@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  *{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+  }
+}
+@layer utilities{
+  .delay1{
+    animation-delay: 0.33s;
+  }
+  .delay2{
+    animation-delay: 0.66s;
+  }
+}
